@@ -14,4 +14,13 @@ $(document).ready(function () {
         selector: 'a',
       }
          ); 
+
+
+         setTimeout(function(){
+           $('.loader-wrap').addClass('active');
+         },500)
 });
+
+
+
+
